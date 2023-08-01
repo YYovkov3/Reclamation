@@ -1,6 +1,7 @@
 .images{
     display: flex;
     gap: 15px;
+    padding: 0.3em;
     align-items: center;
     justify-content: center;
 }
@@ -9,6 +10,7 @@
     overflow: hidden;
     width: 50%;
     height: 700px;
+    box-shadow: 0 8px 15px rgba(1, 0.3, 0.2, 0.4);
 }
 .image-container img {
     width: 100%;
@@ -54,5 +56,5 @@ h1 {
     border-radius: 4px;
 }
 .image-container:hover{
-    transform: scale(1.0);
+    transform: scale(1.02);
 }
