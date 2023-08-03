@@ -1,3 +1,4 @@
+@import url(https://use.fontawesome.com/releases/v6.4.2/css/all.css);
 *{
     margin: 0;
     padding: 0;
@@ -67,10 +68,39 @@ h1 {
     transform: scale(1.02);
 }
 .header-text{
-    text-align: center;
-    font-size: 25px;
-    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+    margin: 15px;
+    cursor: pointer;
 }
-.header-text:hover{
-    transform: rotate(5deg);
+h2{
+  font-weight: bold;
+}
+h2:hover{
+    transform: rotate(3deg);
+}
+.icons{
+    font-size: 24px;
+}
+.icon{
+    list-style: none;  
+}
+.icon li{
+    display: inline-block;
+    margin: 8px;
+}
+.fa-brands.fa-facebook{
+    color: blue;
+}
+.fa-brands.fa-youtube{
+    color: red;
+}
+.fa-brands.fa-twitter{
+    color: #1D9BF0;
+}
+.fa-brands.fa-instagram{
+    color: #FD6E4C;
+}
+.icons:hover{
+    transform: scale(1.2);
 }

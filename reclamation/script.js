@@ -104,7 +104,7 @@ function changeDominicanImage() {
 setInterval(changeDominicanImage, 10000);
 
 const pomorieImages = [
-    "iberostar-dominicana-all-inclusive-0.jpg",
+    "1658744994-263-010-pomorie.jpg",
     "150_1.jpg", 
     "thumb_1024x663_Pomorie.jpg",
 ];
